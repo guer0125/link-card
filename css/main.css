@@ -28,7 +28,7 @@ body {
   font-size: 1.5rem;
   color: #512200;
   margin: 0;
-  font-family: "Dosis";
+  font-family: "Dosis", sans-serif;
 }
 
 p {
@@ -74,7 +74,7 @@ footer {
   text-align: center;
 }
 
-.link a {
+.btn a {
   padding: .4em .75em .5em;
   font-size: 1rem;
   background-color: #785439;
@@ -89,6 +89,6 @@ footer {
   font-weight: bold;
 }
 
-.btn:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
