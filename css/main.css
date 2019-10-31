@@ -28,7 +28,7 @@ body {
   font-size: 1.5rem;
   color: #512200;
   margin: 0;
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
 p {
@@ -36,16 +36,18 @@ p {
   color: #512200;
   padding-bottom: 1rem;
   border-bottom: 2px solid #9a816d;
+  width: 93%;
 }
 
-.list dl {
+.btn dl {
   margin: 0;
   padding: 0;
   display: inline-block;
   text-align: left;
+  width: 85%;
 }
 
-.list dt {
+.btn dt {
   padding: 0;
   text-align: left;
   display: inline-block;
@@ -53,18 +55,16 @@ p {
   font-size: .875rem;
 }
 
-.list dd {
+.btn dd {
   padding: 0;
   font-family: georgia;
   font-style: italic;
   display: inline-block;
   margin: 0;
   font-size: .875rem;
-  width: 50%;
 }
 
-.list {
-  padding-bottom: 1rem;
+.btn {
   list-style-type: none;
   display: inline-block;
   display: flex;
@@ -72,26 +72,31 @@ p {
   color: #512200;
   border-bottom: 2px solid #9a816d;
   text-decoration: none;
+  padding: 0;
+  margin: 0 0 1rem;
 }
 
-footer {
-  margin: 1rem;
-  text-align: center;
+a .btn {
+  padding: 0;
+  margin: 0 0 1rem;
 }
 
-.link a {
+.link {
   padding: .4em .75em .5em;
   font-size: 1rem;
   background-color: #785439;
   color: #f0eee8;
   text-decoration: none;
   display: inline-block;
-  text-align: center;
   border-style: solid;
   border-radius: 8px;
   border-color: #785439;
   font-family: "Dosis", sans-serif;
   font-weight: bold;
+}
+
+.footer {
+  text-align: center;
 }
 
 .link-card:hover {
